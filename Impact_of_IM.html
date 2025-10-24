@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Impact of IM</title>
+	<link rel="icon" href="IMAGES/Icon.png" type="image/x-icon">
+
+	<!-- Metadata -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="Information regarding the impact of instant messaging on communication and collaboration in businesses">
+	<meta name="author" content="Thomas Kabalin">
+
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="custom-styles.css">
+</head>
+
+<body>
+
+	<!-- Navigation Bar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-black w3-padding w3-card">
+			<a href="#" class="w3-bar-item w3-button w3-padding-large"><b>IMPACT OF IM</b></a>
+			<div class="w3-left">
+				<a href="Current_Usage.html" class="w3-bar-item w3-button w3-padding-large">CURRENT
+					USAGE</a>
+				<a href="Implementation.html" class="w3-bar-item w3-button w3-padding-large">IMPLEMENTATION AND ADOPTION
+				</a>
+				<a href="Future.html" class="w3-bar-item w3-button w3-padding-large">FUTURE
+					OF IM</a>
+				<div class="w3-dropdown-hover">
+					<button class="w3-padding-large w3-button" title="More">MORE <i
+							class="fa fa-caret-down"></i></button>
+					<div class="w3-dropdown-content w3-bar-block w3-card-4">
+						<a href="Bibliography.html" class="w3-bar-item w3-button">Bibliography</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Automatic Slideshow Images -->
+	<div class="slideShow w3-display-container w3-center">
+		<img src="IMAGES/Slideshow1.jpg" class="cover-image" alt="Colourful image of a person holding a smartphone">
+	</div>
+
+	<div class="slideShow w3-display-container w3-center">
+		<img src="IMAGES/Slideshow2.jpg" class="cover-image" alt="Hands typing on a smartphone">
+	</div>
+
+	<div class="slideShow w3-display-container w3-center">
+		<img src="IMAGES/Slideshow3.jpg" class="cover-image" alt="Hand holding a smartphone at a table">
+	</div>
+
+	<!-- Title -->
+	<div class="title-text-box">
+		<h1 class="w3-wide">Impact of Instant Messaging</h1>
+		<font color="white" size="5">
+			<p style="margin-top: -20px">on communication and collaboration in businesses</p>
+		</font>
+		<a href=#body class="btn outline-button" style=" text-decoration:none"> Read More</a>
+	</div>
+
+	<!-- ID created above content to scroll to correct location -->
+	<div id="body" style="visibility: hidden;">BodyID</div>
+	<!-- Page content -->
+	<div class="w3-content" style="max-width:2000px;">
+		<!-- Body Text -->
+		<div class="w3-container w3-content w3-left-align w3-padding-32" style="max-width:900px">
+			<h2 align="center" class="w3-wide">Introduction</h2>
+			<p>
+				The ease of use of instant messaging (IM) has made it a popular tool for business communication. It
+				allows employees to communicate and collaborate in real-time, improving their efficiency. However,
+				instant messaging can bring about concerns regarding productivity, security, and privacy. Therefore,
+				businesses must find ways to maximise the benefits while mitigating these potential drawbacks.
+			</p>
+
+			<p>
+				This website contains information that will inform businesses on how to effectively utilise instant
+				messaging to enhance communication and collaboration within the organisation while mitigating the
+				associated risks.
+			</p>
+
+			<p style="padding-bottom: 24px;">
+				The focus is on three key aspects: the <a href="Current_Usage.html">current usage</a> of instant
+				messaging in businesses, effective
+				<a href="Implementation.html">implementation</a> and adoption strategies for integrating instant
+				messaging into workflows and what the
+				<a href="Future.html">future of instant messaging</a> in businesses will look like.
+			</p>
+
+			<hr/>
+
+			<h2 align="center">How does the implementation of instant messaging impact communication and
+				collaboration within a
+				business?</h2>
+
+			<p>
+				The implementation of instant messaging within businesses has a predominantly positive impact on
+				communication and collaboration. Instant messaging promotes interactivity and trust among team members,
+				enhancing teamwork. </p>
+
+			<p>Despite occasional issues, most users are satisfied with their instant messaging
+				applications, reflecting their positive impact. The benefits of real-time collaboration and instant
+				message delivery outweigh concerns regarding security and productivity. To realise these benefits,
+				businesses must select secure instant messaging platforms and promote work-life balance among their
+				employees. </p>
+
+			<p>In the future, AI chatbots integrated into instant messaging platforms are set to
+				revolutionise communication with customers, reducing wait times and increasing satisfaction.
+				Furthermore, instant messaging tools designed specifically for businesses, like WhatsApp Business, are
+				seeing significant growth.</p>
+
+			<p>
+				Overall, instant messaging plays a vital role in enhancing communication and fostering collaboration
+				within businesses. By adhering to best practices and embracing technological advancements, organisations
+				can strengthen their communication between team members and build stronger relationships with clients.
+				As a result, this leads to improved productivity and success in today’s business environment.
+			</p>
+			<br />
+			<p>If you would like to read more about the different aspects of this topic, use the navigation bar to
+				select a different page.</p>
+
+		</div>
+
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+		<p class="w3-medium">Copyright © by Thomas Kabalin <br> CSS stylesheet by <a
+				href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+	</footer>
+
+</body>
+<script>
+	// Automatic Slideshow - change image every 6 seconds
+	var index = 0;
+	slides();
+
+	function slides() {
+		var i;
+		var x = document.getElementsByClassName("slideShow");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		index++;
+		if (index > x.length) { index = 1 }
+		x[index - 1].style.display = "block";
+		setTimeout(slides, 5000);
+	}
+</script>
+
+</html>
