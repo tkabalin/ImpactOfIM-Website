@@ -1,12 +1,12 @@
 # Impact of Instant Messaging - Grade 12 CAT PAT Website
 
-## 📜 Description
+## Description
 
 This project is a website created as part of the Grade 12 Computer Applications Technology (CAT) Practical Assessment Task (PAT). The goal of this website is to serve as a summarised, visual version of the Phase 2 research report, presenting the findings on the project's topic in a user-friendly web format.
 
 The topic of investigation is **The Impact of Instant Messaging (IM) on Communication and Collaboration in Businesses**.
 
-## 🧭 Pages
+## Pages
 
 The website consists of a home page and four additional content pages:
 
@@ -16,7 +16,7 @@ The website consists of a home page and four additional content pages:
 * **`Future.html`:** Explores the future trends and expected growth of IM technologies in a business context.
 * **`Bibliography.html`:** Cites all sources and images used throughout the website.
 
-## ✨ Features
+## Features
 
 This website was built to meet the requirements of the PAT guidelines, including:
 
@@ -28,18 +28,18 @@ This website was built to meet the requirements of the PAT guidelines, including
 * **Consistent Design:** A clean, consistent layout and appearance are maintained across all pages using a shared CSS stylesheet.
 * **Acknowledgements:** A dedicated bibliography page properly acknowledges all information and graphics used from other sources.
 
-## 💻 Technologies Used
+## Technologies Used
 
 * **HTML:** Used for the structure and content of all web pages.
 * **CSS:** Used for all styling, layout, and appearance.
     * [**w3.css**](https://www.w3schools.com/w3css/default.asp): A CSS framework used for the base layout and responsive design.
     * **`custom-styles.css`:** A custom stylesheet for additional styling and modifications.
 
-## ✒️ Credits
+## Credits
 
 * **Project Author:** Thomas Kabalin
 * **CSS Framework:** [w3.css](https://www.w3schools.com/w3css/default.asp) by W3Schools
 
-## 📃 License
+## License
 
 This project is protected by copyright. See [LICENSE.md](LICENSE.md) for full details. 
