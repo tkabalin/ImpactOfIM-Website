@@ -1,5 +1,7 @@
 # Impact of Instant Messaging - Grade 12 CAT PAT Website
 
+>⚠️**Disclaimer**: This website is optimised for desktop use. Some features or layouts may not display correctly on mobile devices or if resizing the page.
+
 ## Description
 
 This project is a website created as part of the Grade 12 Computer Applications Technology (CAT) Practical Assessment Task (PAT). The goal of this website is to serve as a summarised, visual version of the Phase 2 research report, presenting the findings on the project's topic in a user-friendly web format.
